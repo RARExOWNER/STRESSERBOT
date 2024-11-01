@@ -12,7 +12,7 @@ import asyncio
 from pymongo import MongoClient
 
 # Insert your Telegram bot token here
-bot = telebot.TeleBot('7447089126:AAEfFYR_UJdA8sn4XWZNBvL8KdhJEG0TUbA')
+bot = telebot.TeleBot('7764942096:AAEFuijVb9KwNEXCPzNfPIwbyWj8G3ubiIQ')
 
 # Admin user IDs
 admin_id = {"6906270448"}
